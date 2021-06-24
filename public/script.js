@@ -89,7 +89,6 @@ function callPromptFunc() {
 
 function closePromptBox() {
   username = document.getElementById("nameinputBox").value;
-  console.log("uname is ", username);
   if (username !== "") {
     promptBox = document.getElementById("promptBox");
     promptClose = document.getElementById("promptClose");
